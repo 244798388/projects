@@ -1,0 +1,85 @@
+
+.center{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    vertical-align: top;
+}
+.logo{
+    margin-left: 46px;
+    float: left;
+}
+nav{
+    margin-right: 46px;
+    float: right;
+  text-align: center;
+  line-height: 80px;
+}
+nav a{
+    display: inline-block;
+    width: 120px;
+}
+nav a:hover{
+    border-bottom: 5px solid red;
+}
+.company{
+    width: 1000px;
+    margin: 40px auto;
+}
+.company-top{
+    overflow: hidden;
+}
+.company-top-left :nth-child(2){
+    color: #a9a9a9;}
+    .company-top-right{
+  margin-top: 10px;
+ }
+ .company img{
+     margin-top: 20px;
+ }
+ .company-botton-1-top{
+     overflow: hidden;
+ }
+ .company-botton-1{
+     width: 240px;
+ }
+ .company-botton{
+     margin-top: 50px;
+     display: flex;
+     justify-content: space-between
+ }
+ .company-botton-1-top-right{
+     margin-top: 20px;
+     margin-left: 70px;
+ }
+ .company-botton-1-top-right :nth-child(2){
+    color: #a9a9a9;
+ }
+ .company-botton-1-botton{
+     font-size: 14px;
+     margin-left: 70px;
+     margin-top: 30px;
+ }
+ .company-botton-1-botton :nth-child(2){
+    color: #a9a9a9;
+    margin-top: 14px;
+ }
+ footer{
+    margin-top: 50px;
+    width: 1920px;
+    height: 50px;
+    background-color: #866961;
+}
+.foot-p{
+    margin-left: 427px;
+    width: 600px;
+  margin-top: 14px;
+}
+.foot-p p{
+    font-size: 15px;
+}
+.footer-logo{
+    width: 100px;
+ 
+}
+#allmap {height: 500px;width:100%;overflow: hidden;}

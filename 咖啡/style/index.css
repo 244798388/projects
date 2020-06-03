@@ -1,0 +1,230 @@
+header{
+    width: 1920px;
+    height: 80px;
+
+}
+.logo{
+    width: 145px;
+    height: 80px;
+    float: left;
+    margin-left: 406px;
+}
+
+nav{
+    margin-left: 258px;
+    width: 684px;
+    height: 80px;
+    line-height: 80px;
+    float: left;
+}
+nav a{
+    display:inline-block;
+    width: 120px;
+    height: 75px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin-right: 12px;
+}
+nav a:hover{
+    border-bottom: 5px solid #866961;
+}
+.lunbo{
+    position: relative;
+    width: 1920px;
+    height: 598px;
+    background: url(../images/背景图_02.gif);
+}
+.lunbo-p{
+    position: absolute;
+    height: 200px;
+    width: 600px;
+    left: 430px;
+    top: 230px;
+    text-align: center;
+   
+}
+.lunbo-p:nth-child(1){
+font-size:36px;
+color: white;
+}
+.lunbo-p span{
+  display: inline-block;
+    width: 410px;
+    height: 50px;
+    font-size: 36px;
+    background-color: #866961;
+    color:white;
+}
+.we-box{
+    height: 793px;
+    width: 1920px;
+  
+}
+.we{
+    margin: 50px  auto; 
+    height: 646px;
+    width: 1046px;
+    text-align: center;
+}
+.we h3{
+    font-size: 24px;
+   margin-bottom: 90px;
+}
+
+.we-botton{
+width: 1046px;
+height: 533px;
+}
+.we-left{
+    width: 415px;
+    height: 533px;
+}
+.we-right{
+    margin-left: 10px;
+    width: 600px;
+    height: 533px;
+    background-color: aqua;
+}
+.coffee{
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    width: 1920px;
+    background: url(../images/享受咖啡_02.gif);
+}
+.coffee p{
+    font-size: 22px;
+    color: white;
+}
+.indru-box{
+    height: 660px;
+    width: 1920px;
+}
+.indru{
+    margin: 40px auto;
+    height: 550px;
+    width: 1120px;
+    text-align: center;
+   
+}
+.indru h4{
+    font-size: 26px;
+    margin-bottom: 100px;
+}
+.indru-botton{
+    width: 1120px;
+    height: 430px;
+}
+.indru-botton-1{
+    width: 327px;
+    height: 430px;
+}
+.btton-img{
+    width: 327px;
+    height: 298px;
+}
+.write{
+    height: 110px;
+    width: 327px;
+    text-align: center;
+}
+.write-title{
+font-size: 26px;
+}
+.word{
+    font-size: 12px;
+}
+.pan-box{
+    width: 1920px;
+    height: 785px;
+}
+.pan{
+    margin: 30px  auto;
+    height: 625px;
+    width: 1090px;
+    text-align: center;
+}
+.pan h5{
+    font-size: 26px;
+    margin-bottom: 100px;
+}
+.pan-botton{
+    height: 508px;
+    width: 1090px;
+}
+.pan-1{
+    height: 508px;
+    width: 245px;
+}
+.pan-img{
+    width: 245px;
+    height: 405px;
+}
+.img-botton{
+    width: 245px;
+    height: 103px;
+    text-align: center;
+    background-color: #866961;
+}
+.img-botton p{
+    font-size: 18px;
+}
+.contact{
+    margin-top: 65px;
+    margin-left: 160px;
+    height: 455px;
+    width: 1070px;
+    text-align: center;
+}
+.contact h6{
+    font-size: 26px;
+    margin-bottom: 100px;
+}
+.contact-botton{
+    width: 1070px;
+    height: 344px;
+}
+.botton-left{
+    height: 344px;
+    width: 664px;
+}
+.botton-right{
+    margin-left:20px;
+    width: 344px;
+    height: 344px;
+}
+.phone{
+    width: 344px;
+    height: 90px;
+}
+.phone-left{
+    width: 40px;
+    height: 41px;
+}
+.phone-right{
+    margin-left: 20px;
+    width: 180px;
+    height: 90px;
+}
+.phone-right p{
+    font-size: 20px;
+}
+footer{
+    margin-top: 50px;
+    width: 1920px;
+    height: 50px;
+    background-color: #866961;
+}
+.foot-p{
+    margin-left: 427px;
+    width: 600px;
+    height: 34px;
+}
+.foot-p p{
+    font-size: 15px;
+}
+.footer-logo{
+    width: 100px;
+    height: 43px;
+}

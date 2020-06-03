@@ -1,0 +1,99 @@
+
+.center{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    vertical-align: top;
+}
+.logo{
+    margin-left: 46px;
+    float: left;
+}
+nav{
+    margin-right: 46px;
+    float: right;
+  text-align: center;
+  line-height: 80px;
+}
+nav a{
+    display: inline-block;
+    width: 120px;
+}
+nav a:hover{
+    border-bottom: 5px solid red;
+}
+.intro{
+    width: 1000px;
+}
+.intro-top{
+    overflow: hidden;
+}
+.intro-top-right{
+    margin-top: 10px;
+}
+.intro-botton{
+    margin-top: 24px;
+    overflow: hidden;
+}
+.intro-botton-left{
+    float: left;
+}
+.intro-botton-right{
+    float: right;
+    width: 600px;
+}
+.p1{
+    font-size: 18px;
+}
+.p2{
+    margin-top: 7px;
+font-size: 16px;
+color: #bfbfbf;
+}
+.p3{
+    margin-top: 34px;
+    font-size: 16px;
+    text-indent: 2em;
+    color: #bfbfbf;
+    line-height: 22px;
+}
+.p4{
+    margin-top: 34px;
+    font-size: 16px;
+    text-indent: 2em;
+    color: #bfbfbf;
+    line-height: 22px;
+}
+.pan-botton{
+    margin-top: 44px;
+    width: 600px;
+   display: flex;
+   justify-content: space-around;
+}
+.pan-1{
+    width: 145px;
+}
+
+.img-botton{
+    width: 145px;
+    text-align: center;
+    background-color: #866961;
+}
+footer{
+    margin-top: 50px;
+    width: 1920px;
+    height: 50px;
+    background-color: #866961;
+}
+.foot-p{
+    margin-left: 427px;
+    width: 600px;
+  margin-top: 14px;
+}
+.foot-p p{
+    font-size: 15px;
+}
+.footer-logo{
+    width: 100px;
+ 
+}
