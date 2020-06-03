@@ -1,0 +1,176 @@
+.center{
+    margin: 0 auto;
+    width: 1200px;
+}
+.logo{
+    margin-top: 24px;
+    float: left;
+}
+nav{
+   margin-top: 32px;
+    float: right;
+}
+nav a{
+    margin-left: 48px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
+.img{
+    margin-bottom: 30px;
+}
+.sjspan{
+    float: right;
+}
+.center hr{
+    margin-top: 8px;
+  float: right;
+    width: 1100px;
+}
+.sjspan span:nth-of-type(2){
+    margin-left: 30px;
+}
+.le-title{
+    float: left;
+    text-align: center;
+    position: relative;
+    
+}
+.le-title h3{
+    width: 147px;
+    height: 37px;
+    font-size: 22px;
+    border: 1px solid #666666;
+    border-top: none;
+    
+}
+.le-title ul{
+    border-left: 1px solid #666666;
+    position: relative;
+    overflow: hidden;
+}
+.le-title i{
+    position: absolute;
+    left: 0;
+}
+
+.le-title li{
+    margin-top: 30px;
+}
+.one{
+    width: 1px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    background-color:white;
+}
+ul li:nth-of-type(1){
+    color: red;  
+
+}
+ul li:nth-of-type(1)::after{
+    content:">";
+    position: absolute;
+    right: 0;
+}
+
+
+.two{
+    height: 1px;
+    width: 127px;
+    position: absolute;
+    left: 20px;
+    top:37px;
+    background-color: white;
+}
+.three{
+    width: 1px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color:white; 
+}
+.people{
+position:absolute;
+left: 225px;
+top:38px;
+    width: 976px;
+    height: 640px;
+}
+.liu{
+    position: absolute;
+    width: 976px;
+    height: 640px;
+    
+}
+.han{
+    position: absolute;
+    width: 976px;
+    height: 640px;
+   
+}
+.zhou{
+    position: absolute;
+    width: 976px;
+    height: 640px;
+ 
+}
+.luo{
+    position: absolute;
+    width: 976px;
+    height: 640px;
+ 
+}
+.se{
+    width: 1200px;
+    height: 670px;
+    position: relative;
+}
+.wr{
+    float: left;
+    width: 700px;
+}
+.wr p:nth-of-type(1){
+    display: inline-block;
+    font-size: 20px;
+  margin-bottom: 5px;
+}
+.wr p:nth-of-type(2){
+    margin-top: 20px;
+    line-height: 20px;
+    color: #989898;
+}
+.wr p:nth-of-type(3){
+    margin-top: 38px;
+    font-size: 20px;
+    display: inline-block;
+}
+.wr p:nth-of-type(4){
+    margin-top: 15px;
+    line-height: 20px;
+    color: #989898;
+}
+.im{
+    float: right;
+}
+.box{
+    width: 976px;
+    display: flex;
+    justify-content: space-between;
+}
+.works{
+    float: left;
+    margin-top: 33px;
+}
+.works p{
+    display: inline-block;
+    font-size: 20px; 
+    margin-bottom: 5px;
+}
+
+.box{
+    margin-top: 25px;
+}

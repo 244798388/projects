@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  a {  text-decoration:none;
+   
+  }
+  /* 头部 */
+  .top{
+    width: 100%;
+    height: 78px;
+  }
+  .topc{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .topcl{
+    float: left;
+    width: 130px;
+    height: 100%;
+  }
+  .topcr{
+    width: 534px;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+  }
+  .topcr a{
+    height: 25px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    color: #333333;
+  }
+  .topcr a:hover{
+    border-bottom: 2px solid #fc7863;
+  }
+ 
+
+  /* 关于我们 */
+  .we{
+    width: 1200px;
+    height: 640px;
+    margin: 0 auto;
+    margin-top: 75px;
+  }
+  .wel{
+    width: 583px;
+    height: 100%;
+    border-bottom: 1px solid #666666;
+    position: relative;
+    float: left;
+  }
+  .wel-one{
+    position: absolute;
+    background: white;
+    width: 412px;
+    height: 2px;
+    bottom: -1px;
+    left: 171px;
+  }
+  .welt{
+    width: 100%;
+    height: 90px;
+    border-left: 1px solid #666666;
+    position: relative;
+  }
+  .guanyu{
+    width: 155px;
+    height: 30px;
+    border: 1px solid #666666;
+    position: absolute;
+    left: 240px;
+    top: 1px;
+  }
+  .guanyu p{
+    width: 155px;
+    height: 14px;
+    text-align: center;
+    color: #343434;
+    font-size: 22px;
+    font-weight: 300px;
+  }
+  .welt span{
+    text-align: center;
+    width: 155px;
+    height: 30px;
+    font-size: 10px;
+    position: absolute;
+    left: 240px;
+    top: 32px;
+    color: #666666;
+  }
+  .one{
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    left: 235px;
+    top: 20px;
+    background: white;
+  }
+  .two{
+    width: 140px;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 252px;
+  }
+  .three{
+    width: 10px;
+    height: 12px;
+    position: absolute;
+    left: 390px;
+    background: white;
+  }
+  .four{
+    width: 143px;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 240px;
+    top: 30px;
+  }
+  .wel-txt{
+    width: 580px;
+    height: 480px;
+    
+  }
+  .wel-txt p{
+    margin: 0 auto;
+    width: 575px;
+    margin-top: 44px;
+    line-height: 20px;
+    text-indent:28px;
+    text-align:justify;
+    color: #666666;
+  }
+  .wel-txt p:nth-of-type(1){
+    margin-top: 8px;
+  }
+  .wel-buttom{
+    position: relative;
+  }
+  .reading{
+    width: 126px;
+    height: 30px;
+    border: 1px solid #666666;
+    margin-left: 255px;
+  }
+  .reading p{
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    color: red;
+    font-weight: 500;
+  }
+  .wel-buttom-one{
+    width: 92px;
+    height: 5px;
+    background: white;
+    position: absolute;
+    left: 255px;
+  }
+  .wel-buttom-two{
+    width: 6px;
+    height: 7px;
+    background: white;
+    position: absolute;
+    left: 377px;
+  }
+  .wel-buttom-three{
+    width: 6px;
+    height: 7px;
+    background: white;
+    position: absolute;
+    top: 25px;
+    left: 255px;
+  }
+  .wel-buttom-four{
+    width: 92px;
+    height: 5px;
+    background: white;
+    position: absolute;
+    top: 30px;
+    left: 292px;
+  }
+  .wer{
+    width: 617px;
+    height: 100%;
+    float: right;
+    position: relative;
+  }
+  .wer-box{
+    margin-left: 20px;
+    margin-top: 80px;
+    width: 480px;
+    height: 560px;
+    border: 1px solid #666666;
+    position: relative;
+  }
+  .wer img{
+    position: absolute;
+    left: 50px;
+    top: -45px;
+  }
+  .wer-box-one{
+    width: 122px;
+    height: 122px;
+    background:#999999;
+    position: absolute;
+    top: -76px;
+    left: 460px;
+  }
+  /* 产品展示 */
+  .product{
+    margin-top: 70px;
+    widows: 100%;;
+    height: 640px;
+    position: relative;
+  }
+  .product img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .product1{
+    widows: 100%;;
+    height: 660px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .product1-top{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+  }
+  .welt1{
+    width: 100%;
+    height: 90px;
+    position: relative;
+  }
+  .guanyu1{
+    width: 155px;
+    height: 30px;
+    border: 1px solid #666666;
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    top: 1px;
+  }
+  .guanyu1 p{
+    width: 155px;
+    height: 14px;
+    text-align: center;
+    color: #343434;
+    font-size: 22px;
+    font-weight: 300px;
+  }
+  .welt1 span{
+    text-align: center;
+    width: 155px;
+    height: 30px;
+    font-size: 10px;
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    top: 32px;
+    color: #666666;
+  }
+  .one1{
+    position: absolute;
+    width: 10px;
+    height: 12px;
+    left: 50%;
+    margin-left: -80px;
+    top: 20px;
+    background: white;
+  }
+  .two1{
+    width: 140px;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+  }
+  .three1{
+    width: 10px;
+    height: 12px;
+    position: absolute;
+    left: 50%;
+    margin-left: 70px;
+    background: white;
+  }
+  .four1{
+    width: 143px;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    top: 30px;
+  }
+  .product-b{
+    width: 1200px;
+    height: 390px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .simple{
+    width: 583px;
+    height: 183px;
+    float: left;
+    border: 1px solid #666666;
+    margin-top: 10px;
+  }
+  .simple:hover .simple-r-t p{
+  color: red;
+  }
+  .simple:hover .simple-r-tt p{
+    color: red;
+    }
+  .simple-l{
+    width: 300px;
+    height: 175px;
+    float: left;
+  }
+  .simple-l img{
+    margin-top: 4px;
+    margin-left: 4px;
+  }
+  .simple-2{
+    width: 300px;
+    height: 175px;
+    float: right;
+  }
+  .simple-2 img{
+    margin-top: 4px;
+    margin-right: 4px;
+  }
+  .simple-r{
+    width: 214px;
+    height: 112px;
+    margin-left: 34px;
+    margin-top: 45px;
+    border-right: 1px solid #cccccc;
+    float: left;
+  
+  }
+  .simple-r-t{
+    width: 70px;
+    height: 26px;
+    border-bottom: 1px solid #666666;
+  }
+  
+  .simple-r-tt{
+    width: 118px;
+    height: 26px;
+    border-bottom: 1px solid #666666;
+  }
+  .simple-r-t p{
+    color: #666666;
+  }
+  .simple-r span{
+    font-size: 14px;
+    color:#656565;
+    text-align: justify;
+  }
+  .simple-r-b{
+    margin-top: 20px;
+    width: 97%;
+    height: 60px;
+  }
+  .wel-buttom1{
+    margin-top: 42px;
+    width: 100%;
+    position: relative;
+  }
+  .reading1{
+    position: absolute;
+    width: 126px;
+    line-height: 30px;
+    border: 1px solid #666666;
+    left: 50%;
+    margin-left: -63px;
+    text-align: center;
+  
+  }
+  .reading1 p{
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    color: #666666;
+    font-weight: 500;
+  }
+  .wel-buttom-one1{
+    width: 92px;
+    height: 5px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -63px;
+    top: -1px;
+  }
+  .wel-buttom-two1{
+    width: 6px;
+    height: 7px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -63px;
+    top: 25px;
+  }
+  .wel-buttom-three1{
+    width: 6px;
+    height: 7px;
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: 59px;
+  }
+  .wel-buttom-four1{
+    width: 92px;
+    height: 5px;
+    background: white;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -23px;
+  }
+  /* 设计团队 */
+  .design{
+    width: 1200px;
+    height: 607px;
+    margin: 0 auto;
+  }
+  .design-b{
+    width: 100%;
+    height: 497px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .design-b-one{
+    width: 244px;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+  .design-b-one1{
+    width: 100%;
+    line-height: 57px;
+    text-align: center;
+  }
+  .design-b-one span{
+    border-bottom: 1px solid #666666;
+  }
+  .design-b-one p{
+    color: #666666;
+    text-align: justify;
+  }
+  
+  .design-b-one:hover .design-b-one1{
+    color: red;
+  }
+  /* 下面的长图 */
+  .long img{
+  width: 100%;
+  }
+  /* 新闻动态 */
+  .journalism{
+    padding-top:25px;
+    width: 1200px;
+    height: 483px;
+    margin: 0 auto;
+  }
+  .journalism-content{
+    width: 100%;
+    height: 230px;
+  }
+  .content1{
+    width: 583px;
+    height: 90px;
+    float: left;
+  }
+  .content1-l{
+    width: 90px;
+    height: 90px;
+    border: 1px solid #666666;
+    float: left;
+  
+  }
+  .journalism-content .content1:nth-of-type(3).content1{
+    margin-top: 44px; 
+  }
+  .journalism-content .content1:nth-of-type(4).content1{
+    margin-top: 44px; 
+  }
+  .content1-l-t{
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+  }
+  .content1-l-b{
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+    background: #666666;
+    color: white;
+  }
+  .content1-r{
+    width: 470px;
+    height: 100%;
+    float: left;
+    margin-left: 5px;
+  }
+  .content1-r-t span{
+  font-size: 20px;
+  font-weight: 400;
+  color: #a7a7a7;
+  }
+  .content1-r-b p{
+    margin-top: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666666;
+  }
+  .content1:hover .content1-l-t{
+  color: red;
+  }
+  .content1:hover .content1-r-t span{
+    color: red;
+    }
+    /* 最下头 */
+    .buttom{
+      width: 100%;
+    height: 80px;
+      background: #666666;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
