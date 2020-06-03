@@ -1,0 +1,287 @@
+
+
+header{
+    background-color: #eeeeee;
+    overflow: hidden;
+  
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.wei{
+    line-height: 30px;
+    width: 86px;
+    float: left;
+    position: relative;
+}
+.erweima{
+ 
+    width: 80px;
+    height: 135px;
+    position: absolute;
+    top: 30px;
+    display: none;
+    float: left;
+  
+}
+.wei:hover .erweima{
+display:block;
+}
+.weibo{
+    line-height: 30px;
+    width: 200px;
+    float: left;
+}
+ul{
+    line-height: 30px;
+    float: right;
+}
+ ul li{
+    float: left;
+    margin-right: 20px;
+}
+ header ul li::after{ 
+    content:"|";
+    margin-left: 10px;
+}
+ul li:nth-of-type(5)::after{
+    content:"";
+}
+
+.top{
+   width: 100%;
+}
+.logo{
+    margin-top: 20px;
+   float: left;
+}
+.ser{
+    float: left;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+.ser input{
+    width: 425px;
+    height: 30px;
+    padding-left: 20px;
+    border: 2px solid #c5023a;
+}
+.ser button{
+    width: 70px;
+    height: 32px;
+    background-color:#fd195a;
+    border: none;
+    color: white;
+}
+.ser p{
+    margin-top: 10px;
+    font-size: 12px;
+    color:#aeaeae;
+}
+.ser p:hover{
+    color: #4f4f4f;
+}
+.phone{
+    margin-top: 10px;
+   float: right;
+}
+
+ .head ul {
+    margin-top: 0px;
+    float: left;
+}
+.head{
+    overflow: hidden;
+}
+.daohang span{
+    float: left;
+    margin-right: 20px;
+    width: 225px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e9004f;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+
+}
+.all{
+    position: relative;
+}
+
+/* .all-h{  
+    text-align: center;
+    width: 225px;
+    line-height: 15px;
+    position: absolute;
+    top: 40px;
+    display: none;
+}
+.all-h div{
+    height: 45px;
+
+}
+.all-h div:nth-of-type(odd){
+ background-color: #eeeeee;
+}
+.all:hover .all-h{
+    display: block;
+} */
+.daohang  li{
+list-style: none;
+text-decoration: none;
+float: left;
+margin-right: 20px;
+line-height: 40px;
+}
+.daohang  li::after{
+    content: "|";
+   color: #d9d9d9;
+    
+  
+}
+.daohang  li:hover{
+    background-color: #e93d6d;
+}
+.daohang{
+    overflow: hidden;
+    border-bottom: 2px solid #e4004f;
+}
+.re{
+    position: relative;
+}
+
+.ca-left{
+    width: 189px;
+    height: 438px;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    right: 0;
+}
+.ca-left span{
+    display: block;
+    width: 189px;
+    background-color: #efefef;
+}
+.ca-left li{
+    margin-left: 20px;
+}
+.ca-left li:hover{
+   color: sandybrown;
+}
+.ca-left ul{
+    margin-bottom: 25px;
+}
+.breadcrumb{
+    color: white;
+}
+
+.ex{
+    float: left;
+  
+}
+.nav-tabs{
+margin-bottom: 20px;
+}
+.nav-tabs li{
+  margin-left: 80px;
+  margin-right: 40px;
+}
+.a{
+float: right;
+  
+    margin-top: 30px;
+}
+.shop{
+    overflow: hidden;
+}
+.dream{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.small{
+width: 46px;
+height:46px;
+display: inline-block;
+}
+.dangao{
+    width: 100%;
+    border-bottom: 2px solid #e4004f;
+   
+}
+.dangao span{
+    font-size: 16px;
+}
+.dr-kuang{
+    width: 100%;
+    position: relative;
+}
+.dr-kuang-two,.dr-kuang-three,.dr-kuang-four{
+    width: 290px;
+    height: 368px;
+    text-align: center;
+    position: absolute;
+    background-color: white;
+}
+
+
+.dr-kuang-two,.dr-kuang-three,.dr-kuang-four img{
+margin-left: 20px;
+padding-top: 40px;
+}
+
+.dr-kuang-two{
+    left: 320px;
+    top: 60px;
+}
+.dr-kuang-two:hover{
+    top: 50px;
+    box-shadow:2px 2px 10px #909090;
+}
+
+.dr-kuang-three{
+    left: 620px;
+    top: 60px;
+}
+.dr-kuang-three:hover{
+    top: 50px;
+    box-shadow:2px 2px 10px #909090;
+}
+.dr-kuang-four{
+    left: 920px;
+    top: 60px;
+}
+.dr-kuang-four:hover{
+    top: 50px;
+    box-shadow:2px 2px 10px #909090;
+}
+.last{
+    margin-top: 20px;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+}
+.center{
+    margin: 20px auto;
+    text-align: center;
+}
+.center ul{
+    margin-right: 200px;
+}
+
+
+.center ul li::after{
+    content: "|";
+    color:#8f338f ;
+}
+.center ul li:nth-of-type(9)::after {
+    content: "";
+}
+.zi{
+ float: left;
+margin-left: 320px;
+}
